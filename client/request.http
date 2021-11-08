@@ -1,0 +1,7 @@
+### Buscar Producto
+GET http://localhost:3000/api/publications/list-search-title
+Content-Type: application/json
+
+{
+   "title": "laptop" 
+}

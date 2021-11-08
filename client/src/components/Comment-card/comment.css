@@ -1,0 +1,11 @@
+/* Announcemente-card*/
+.Overflow{
+    white-space: nowrap; 
+    text-overflow:ellipsis; 
+    overflow: hidden;
+}
+
+.Img-card{
+    height: 200px;
+    width: 200px;
+}

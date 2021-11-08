@@ -1,0 +1,24 @@
+
+  .form-label-calificacion {
+    font-size: 30px;
+    color: grey;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  
+  .Calificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  
+  label.form-label-calificacion:hover, label.form-label-calificacion:hover ~ label {
+    color: yellow;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: yellow;
+  }
